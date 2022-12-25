@@ -1,0 +1,29 @@
+@import '../../../styles/color.var.scss';
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  box-shadow: 0rem .1rem 1rem $background-shadow;
+}
+
+.titleGroup {
+  flex: .3;
+}
+
+.navigation {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+  a {
+    margin: 0 1rem;
+  }
+}
+
+.buttonContainer {
+  flex: .3;
+}
